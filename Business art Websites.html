@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bupponzi TTRPG Character Art: The Adventurer's Guild</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+            color: #E5E7EB;
+        }
+
+        .font-cinzel {
+            font-family: 'Cinzel', serif;
+        }
+
+        .hero-bg {
+            background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 1)), url('YOUR_WARLOCK_HERO_BG_URL_HERE');
+            background-size: cover;
+            background-position: center 60%;
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(251, 191, 36, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-gray-900/50 backdrop-blur-sm fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold font-cinzel text-amber-400">Bupponzi</h1>
+            <nav class="hidden md:flex space-x-6 text-gray-300">
+                <a href="#gallery" class="hover:text-amber-400 transition-colors">The Guild</a>
+                <a href="#services" class="hover:text-amber-400 transition-colors">Services</a>
+                <a href="#process" class="hover:text-amber-400 transition-colors">Process</a>
+            </nav>
+            <a href="#contact" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors">Commission Art</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center justify-center text-center pt-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-7xl font-bold font-cinzel text-white leading-tight drop-shadow-lg">Bring Your Hero to Life.</h2>
+            <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">Professional AI-assisted character art for your TTRPG campaign. Your world, your hero, brought to life in stunning detail.</p>
+            <a href="#gallery" class="mt-8 inline-block bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg hover:bg-amber-400 transition-transform transform hover:scale-105 text-lg">View the Guild</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold font-cinzel text-amber-400">More Than an Image. It's Your Character's Soul.</h3>
+            <div class="w-24 h-1 bg-amber-500 mx-auto mt-4 mb-6"></div>
+            <!-- Placeholder for About Text -->
+            <p class="max-w-3xl mx-auto text-gray-300 text-lg">
+                As a lifelong gamer and artist, I founded Bupponzi to bridge the gap between imagination and reality. My mission is to give your character the epic, professional artwork they deserve, capturing the essence of their story in every detail. We work together to ensure the final piece is not just a picture, but a true representation of your hero.
+            </p>
+            <!-- End Placeholder -->
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl md:text-4xl font-bold font-cinzel text-amber-400 text-center">Meet the Adventurer's Guild: Cohort One</h3>
+            <div class="w-24 h-1 bg-amber-500 mx-auto mt-4 mb-12"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Character 1 -->
+                <div class="gallery-item bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="C:\Users\buffo\Downloads\Generated Image September 04, 2025 - 11_29AM.jpeg" alt="The Stoic Guardian" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <h4 class="font-cinzel text-xl font-bold text-white">The Stoic Guardian</h4>
+                        <p class="text-gray-400">Dwarven Paladin</p>
+                    </div>
+                </div>
+                <!-- Character 2 -->
+                <div class="gallery-item bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="C:\Users\buffo\Downloads\Generated Image September 04, 2025 - 11_30AM.jpeg" alt="The Mystic Scholar" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <h4 class="font-cinzel text-xl font-bold text-white">The Mystic Scholar</h4>
+                        <p class="text-gray-400">Elven Wizard</p>
+                    </div>
+                </div>
+                <!-- Character 3 -->
+                <div class="gallery-item bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="C:\Users\buffo\Downloads\Generated Image September 04, 2025 - 11_30AM (1).jpeg" alt="The Agile Predator" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <h4 class="font-cinzel text-xl font-bold text-white">The Agile Predator</h4>
+                        <p class="text-gray-400">Wood Elf Ranger</p>
+                    </div>
+                </div>
+                <!-- Character 4 -->
+                <div class="gallery-item bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                    <img src="C:\Users\buffo\Downloads\Generated Image September 04, 2025 - 11_31AM.jpeg" alt="The Wild Card" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <h4 class="font-cinzel text-xl font-bold text-white">The Wild Card</h4>
+                        <p class="text-gray-400">Tiefling Warlock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl md:text-4xl font-bold font-cinzel text-amber-400 text-center">Commission Services</h3>
+            <div class="w-24 h-1 bg-amber-500 mx-auto mt-4 mb-12"></div>
+            <!-- Placeholder for Pricing -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto">
+                <!-- Service 1 -->
+                <div class="bg-gray-800 p-8 rounded-lg border-2 border-gray-700 hover:border-amber-500 transition-colors">
+                    <h4 class="font-cinzel text-2xl font-bold text-white">Scout's Portrait</h4>
+                    <p class="text-4xl font-bold text-amber-400 my-4">$75</p>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>Detailed Head & Shoulders</li>
+                        <li>Simple Thematic Background</li>
+                        <li>Perfect for Tokens & Profiles</li>
+                        <li>2-Day Delivery</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-gray-800 p-8 rounded-lg border-2 border-amber-500 transform scale-105 shadow-xl">
+                    <p class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-gray-900 font-bold px-3 py-1 rounded-full text-sm">MOST POPULAR</p>
+                    <h4 class="font-cinzel text-2xl font-bold text-white">Hero's Render</h4>
+                    <p class="text-4xl font-bold text-amber-400 my-4">$150</p>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>Full-Body Character</li>
+                        <li>Detailed Background Scene</li>
+                        <li>Ideal for Character Sheets</li>
+                        <li>4-Day Delivery</li>
+                    </ul>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-gray-800 p-8 rounded-lg border-2 border-gray-700 hover:border-amber-500 transition-colors">
+                    <h4 class="font-cinzel text-2xl font-bold text-white">Legend's Commission</h4>
+                    <p class="text-4xl font-bold text-amber-400 my-4">Custom</p>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>Epic Party Scenes</li>
+                        <li>Multiple Characters</li>
+                        <li>Custom World Maps</li>
+                        <li>Contact for a Quote</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Placeholder -->
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl md:text-4xl font-bold font-cinzel text-amber-400 text-center">Our Simple Process</h3>
+            <div class="w-24 h-1 bg-amber-500 mx-auto mt-4 mb-12"></div>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
+                <!-- Step 1 -->
+                <div class="text-center max-w-xs">
+                    <div class="bg-amber-500 text-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h4 class="font-cinzel text-xl font-bold text-white">The Brief</h4>
+                    <p class="text-gray-400">We start with a conversation to understand your character's story, personality, and key details.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="text-center max-w-xs">
+                    <div class="bg-amber-500 text-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h4 class="font-cinzel text-xl font-bold text-white">The Creation</h4>
+                    <p class="text-gray-400">I act as your AI Art Director, meticulously crafting and refining your vision into a stunning visual.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="text-center max-w-xs">
+                    <div class="bg-amber-500 text-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h4 class="font-cinzel text-xl font-bold text-white">The Delivery</h4>
+                    <p class="text-gray-400">You receive the final, high-resolution artwork, ready for your campaign and character sheet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold font-cinzel text-amber-400">Ready to Forge Your Legend?</h3>
+            <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">Your hero deserves to be seen. Let's work together to create the definitive art for your character. Contact me today to get started.</p>
+            <!-- Final Contact Info -->
+            <a href="mailto:bupponzi.art@gmail.com" class="mt-8 inline-block bg-amber-500 text-gray-900 font-bold py-4 px-10 rounded-lg hover:bg-amber-400 transition-transform transform hover:scale-105 text-xl">
+                Start Your Commission
+            </a>
+            <!-- End Final Contact Info -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2025 Bupponzi TTRPG Character Art. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
